@@ -1,5 +1,5 @@
 {
-    "name": "garveen/laravoole",
+    "name": "sujiayi/laravoole",
     "description": "Get 10x performance for Laravel on Swoole or Workerman",
     "type": "library",
     "keywords": ["laravel","swoole","workerman"],
@@ -8,6 +8,10 @@
         {
             "name": "Gavin",
             "email": "acabin@live.com"
+        },
+        {
+            "name":"粟嘉逸",
+            "email":"348831271@qq.com"
         }
     ],
     "require": {

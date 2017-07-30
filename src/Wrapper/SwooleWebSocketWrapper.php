@@ -194,7 +194,8 @@ class SwooleWebSocketWrapper extends SwooleHttpWrapper implements ServerInterfac
 
     public function endResponse($response, $content)
     {
-        if (isset($response->request)) {
+        //原作者这里没有!
+        if (!isset($response->request)) {
             if (!is_string($content)) {
                 $content = file_get_contents($content());
             }
