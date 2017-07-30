@@ -4,6 +4,7 @@
     "type": "library",
     "keywords": ["laravel","swoole","workerman"],
     "license": "MIT",
+    "verson":"0.5.2",
     "authors": [
         {
             "name": "Gavin",
